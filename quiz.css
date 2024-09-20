@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.full-height {
+    width: 600px;
+    height: 100%;
+    border: none; /* Optional, to remove border around iframe */
+    display: block; /* Ensure the iframe acts like a block element */
+}

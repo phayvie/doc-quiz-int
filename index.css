@@ -1,0 +1,37 @@
+/* Ensure html and body take full height */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+text-decoration: none;
+color: white;
+ }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-height iframe */
+.full-height {
+    height: 100%;
+    border: none; /* Optional, to remove border around iframe */
+    display: block; /* Ensure the iframe acts like a block element */
+}
+
+.h1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+}
